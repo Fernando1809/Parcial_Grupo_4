@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Control_taps"
+    android:background="@drawable/fondo2"
+    android:orientation="vertical">
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/Tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        app:tabBackground="@color/Cyan">
+
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/menu" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabBebidas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bebidas" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabPostres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/postres" />
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <Button
+        android:id="@+id/btnsensor"
+        android:layout_width="72dp"
+        android:layout_height="60dp"
+        android:layout_gravity="end"
+        android:background="@drawable/next"
+        android:text="@string/Siguiente"
+        android:textColor="@color/transparent"
+        tools:ignore="TextContrastCheck" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/wiew">
+
+    </androidx.viewpager.widget.ViewPager>
+
+</LinearLayout>

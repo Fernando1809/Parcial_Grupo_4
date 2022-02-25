@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Parcial 1 Greupo 4</string>
+    <string name="Titulo">Integrantes de Equipo</string>
+    <string name="Julio">Julio Alexander Maravilla </string>
+    <string name="Fernando">Fernando Rene Gonzalez</string>
+    <string name="Dani">Karla Daniela Torres </string>
+    <string name="Dimas">Dimas Israel Melara</string>
+    <string name="atras">atras</string>
+    <string name="Siguiente">sigue</string>
+
+    //string para parte de registro de Datos
+    <string name="Titulo2">Registro de edad</string>
+    <string name="nombre">Escriba su nombre</string>
+    <string name="edad">Escriba su edad</string>
+    <string name="ID">Escriba su ID</string>
+    <string name="enviarDatos">ENVIAR DATOS</string>
+    //String para receccion de Datos Reccecion de Datos
+    <string name="Titulo3">Resultados de Edad</string>
+    <string name="nombre2">Tu nombre es</string>
+    <string name="ResultadID">Tu ID es</string>
+    <string name="Resultadoedad">Tu edad es</string>
+
+    //string utlizados para el control de los tabuladores
+    <string name="menu">Menu.</string>
+    <string name="bebidas">Bebidas</string>
+    <string name="postres">Postres</string>
+    <string name="wiew">t</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    //string utilizados para los framentos
+    <string name="menuplatos">Platos: Carne azada, Pollo rostizado, ChaoMin, Sopa de gallina india</string>
+    <string name="menubebidas">Bebidas: Limonada con soda, Te de limón, Soda ,Jugo de naranja ,Piña colada</string>
+    <string name="menuspostres">Postres: Babana Split, Tres leches, Pay de calabaza, Porcion de pastel</string>
+
+    //string sensores
+    <string name="sensor">SENSOR DE PROXIMIDAD</string>
+    <string name="Acele">Acelerometro</string>
+
+    /string reproductor
+    <string name="iniciar">play</string>
+    <string name="detener">stop</string>
+    <string name="repetir">repeat</string>
+    <string name="anterior">previus</string>
+    <string name="siguiente">next</string>
+
+    //reproductor de video
+    <string name="videoWie">reproductor</string>
+    <string name="btnvolver">buscar</string>
+    <string name="titulore">Reproductor</string>
+
+</resources>
